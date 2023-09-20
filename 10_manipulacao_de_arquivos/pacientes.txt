@@ -1,0 +1,8 @@
+Nome: julio
+E-mail: julio@julio
+CPF: 9809809
+RG: 0989898
+Telefone: 8789789
+Data de Nascimento: 1995-12-09
+Grupo de Risco: Não
+
