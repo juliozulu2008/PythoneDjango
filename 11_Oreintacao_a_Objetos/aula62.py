@@ -1,23 +1,9 @@
 """
-Paradigma imperativo - ex Fortran - Sequencia , Decisão e Iteração
-Paradigma Estruturado - C - Estrutura de dados.
-Paradigma Procedural - Python - Funções
+Abstração
+
+Abstraçao é a ideia de generalizar as caracteristicas que os objetos tem em comum
 """
 
-# paradigma iperadtivo
-def registrar(nome, idade, cpf, email):
-    paciente = {
-        "nome" : nome,
-        "idadde" : idade,
-        "Cpf" : cpf,
-        "email" : email
-    }
-    return print(paciente)
-
-
-registrar()
-
-# paradigma orintado a Objetos
 """
 Classe - Um conjuto de objetos com as mesma cracteristicas
 Objeto - Representaçao do mundo real como um tipo de dado da classe
@@ -26,6 +12,33 @@ Construtor - Construtor é uma funçao com o mesmo nome da classe criado interna
              Estanciar um objeto é passar o valor do objeto para uma variavel
 Atrubuto - Variaveis de uma Classe 
 """
+"""
+CLASSE
+
+Classe é uma estrutura que abstrai um conjunto de objetos com caracteriosticas
+similares. definindo o comportamento dos seus objetos atraves das estruturas:
+
+1- Atributos
+2- Metodos
+
+A classe define um tipo de dado Abstato
+
+"""
+"""
+Conseitos Fundamentais
+
+-Abstração
+
+Processo pelo qual se isolam atributos de umm objeto,
+considerando os que certos grupos de objetos tenham em comum.
+
+-Reuso
+
+Não exixte pior pratica em programaçao do que repetir codigo.
+
+
+"""
+
 
 
 class Paciente:
@@ -34,7 +47,3 @@ class Paciente:
         self.idade = idade  # self.(nome) atributos e do outro lado a as variaveis
         self.cpf = cpf
         self.email = email
-
-
-#Reuso e coesão
-# Acoplamento, herança, polimorfismo Gap semantico
